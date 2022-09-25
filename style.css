@@ -137,13 +137,38 @@ body {
   font-weight: 700;
 }
 
-.content_button {
+.content__button {
   background-color: #5564bc;
   color: #fff1ef;
   border: none;
   padding: 0.5rem 2rem;
   font-weight: 500;
   font-size: 1rem;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.content__button::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #e86d59;
+  transition: all .35s;
+  z-index: 0;
+}
+
+.content__button p {
+  z-index: 20;
+  position: relative;
+}
+
+.content__button:hover::after {
+  width: 100%;
+  cursor: pointer;
 }
 
 .content__food {
@@ -170,4 +195,5 @@ body {
 
 .links__site:hover {
   color: #e86d59;
+  text-decoration: underline;
 }
