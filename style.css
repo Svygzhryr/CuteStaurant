@@ -172,15 +172,17 @@ body {
 }
 
 .content__food {
+  width: 100%;
+  max-width: 35vw;
   height: auto;
-  width: 35vw;
+  object-fit: scale-down;
 }
 
 .links {
   margin-top: 2rem;
 }
 
-.link__socials {
+.links__socials {
   height: 2rem;
   width: auto;
   margin-left: 3rem;
