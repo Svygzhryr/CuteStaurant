@@ -26,3 +26,56 @@
     margin-top: 1rem;
   }
 }
+
+@media (max-width: 610px) {
+  .content__title {
+    font-size: 3rem;
+  }
+  .content__title--colored {
+    font-size: 3rem;
+  }
+  .content__subtitle {
+    font-size: 1.5rem;
+  }
+  .content__subtitle--strong {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    margin-top: 0.5rem;
+    width: 95%;
+  }
+  .navbar__logo {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    border-bottom: 0.5rem dashed #fff1ef;
+  }
+  .navbar__item {
+    width: 50%;
+    font-size: 1rem;
+  }
+  .content {
+    margin-top: -4rem;
+  }
+  .content__title {
+    font-size: 2rem;
+  }
+  .content__title--colored {
+    font-size: 2rem;
+  }
+  .content__subtitle {
+    font-size: 1rem;
+  }
+  .content__subtitle--strong {
+    font-size: 1rem;
+  }
+  .links {
+    margin-top: 1rem;
+  }
+  .links__site {
+    margin-top: 1rem;
+  }
+}

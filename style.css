@@ -105,6 +105,7 @@ body {
 
 .content {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 90%;
   margin: 4rem auto 0;
